@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  #notes {
+    width: 500px;
+    height: 300px;
+    border: 1px solid lightgray;
+    overflow: scroll;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #start-recording-button {
+    background-color: lightgreen;
+  }
+  
+  #stop-recording-button {
+    background-color: lightcoral;
+    margin-left: 20px;
+  }
+  
+  #stop-recording-button[disabled] {
+    background-color: gray;
+    cursor: not-allowed;
+  }
